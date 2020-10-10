@@ -5,7 +5,7 @@ key feature of this course to learn NoSQL emphasis on MongoDB.
  - CRUD operations to read and write documents within collections. Discover how to create and manage documents.
  - How MongoDB can be queried, manipulated, and managed with Python.
 
-[![License](https://img.shields.io/github/license/ArkanJbali/zooPilot)](LICENSE) [![Issues](https://img.shields.io/github/issues/ArkanJbali/zooPilot)](https://github.com/ArkanJbali/zooPilot/issues)
+[![License](https://img.shields.io/github/license/ArkanJbali/zooPilotCRUD)](LICENSE) [![Issues](https://img.shields.io/github/issues/ArkanJbali/zooPilotCRUD)](https://github.com/ArkanJbali/zooPilotCRUD/issues)
 
 ## Introduction
 #### What Is A Web API?
