@@ -25,6 +25,7 @@ key feature of this course to learn NoSQL emphasis on MongoDB.
 **A Web API (Application Programming Interface)** allows you to serve data over the web, typically in JSON or XML format. Generally, this is done by exposing endpoints to make requests.
 An example is the [PokéAPI](https://pokeapi.co/), which gives you access to a Pokemon database. Try the link below to get all the data you could ever want to know about a Squirtle!
 > https://pokeapi.co/api/v2/pokemon/squirtle
+
 By convention, an API will have one entry point. This is like the root folder in your File Explorer. There can be any number of endpoints.
 Data can be delivered in different forms depending on the given route. Try navigating to the /pokemon route and you will get the data for ALL Pokemon, instead of just for Squirtle.
 
@@ -49,6 +50,7 @@ Create a clean virtual environment and get Flask.
 
 ##### Flask-RESTful
 > pip install flask-restful
+
 The Flask-RESTful library will require a setup much like MongoEngine, where we will make a Class for each API interaction. These Classes are called Resources. In Flask, connecting a Resource to an endpoint is called a route. This is what we are referring to when we say routes.
 Our API will have a few routes. One for authentication (signing up and logging in), another for users (to GET or PUT or DELETE user data), and another for meals (to GET, PUT, or POST).
 
@@ -59,22 +61,23 @@ Download Postman at
 
 
 ### Project Structure
-> │
-> │   app.py
-> │   README.md
-> │
-> ├───api
-> │       rooms.py
-> │       users.py
-> │       routes.py
-> │       __init__.py
-> │
-> └───static
-> │       css
-> │       fontawesome-5.5
-> │       img
-> │       magnific-popup
-> │       slick
-> └───templates
-> │       index.html
-
+```
+ │
+ │   app.py
+ │   README.md
+ │
+ ├───api
+ │       rooms.py
+ │       users.py
+ │       routes.py
+ │       __init__.py
+ │
+ └───static
+ │       css
+ │       fontawesome-5.5
+ │       img
+ │       magnific-popup
+ │       slick
+ └───templates
+ │       index.html
+```
